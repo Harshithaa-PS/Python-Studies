@@ -1,0 +1,32 @@
+#VARIABLE CREATION
+#EMAIL REGISTRATION
+first_name="xxx"
+last_name="yyyyy"
+user_name="xxxyyy"
+password="xxx-364"
+confirm_password="xxx-364"
+dob="DD-MM-YYYY"
+recorvery_email="xxyy@gmail.com"
+country="INDIA"
+
+#HOSPITAL REGISTRATION
+patient_name="xxxxx"
+age=50
+phone_number=xxxxxxxxxx
+room_number=123
+dob="DD-MM-YYYY"
+
+#HOTEL SEAT BOOKING
+name="xxxxyyyy"
+age=12
+number_of_person=5
+phone_number=xxxxxxxxxx
+time="8 pm"
+table_number=5
+
+#FUNCTION CREATION 
+def add(a,b):
+  return a+b
+a=5
+b=6
+print(add(a,b))
