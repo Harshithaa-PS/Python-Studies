@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voting Results</title>
+</head>
+<body>
+    <h1>Voting Results</h1>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Candidate</th>
+            <th>Votes</th>
+        </tr>
+
+        {% for candidate, count in votes.items() %}
+        <tr>
+            <td>{{ candidate }}</td>
+            <td>{{ count }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <br>
+    <a href="/">Back to Voting Page</a>
+</body>
+</html>
